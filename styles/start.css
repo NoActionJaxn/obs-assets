@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.start-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 36px;
+  width: 100%;
+  background: url('../images/StartBackground.png') repeat left center;
+}
+
+.start-bar .start-button {
+  height: inherit;
+  width: 110px;
+  background: url('../images/StartButton.png') no-repeat center center;
+}
+
+.start-bar .start-status {
+  height: inherit;
+  width: 98px;
+  background: url('../images/StartStatus.png') no-repeat center center;
+}
