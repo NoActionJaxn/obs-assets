@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: url('../fonts/tahoma.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}

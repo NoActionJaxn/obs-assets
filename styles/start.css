@@ -1,16 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .start-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 36px;
   width: 100%;
-  background: url('../images/StartBackground.png') repeat left center;
+  background: url('../images/StartBackground.png') repeat center left;
 }
 
 .start-bar .start-button {
@@ -20,7 +14,28 @@
 }
 
 .start-bar .start-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: inherit;
   width: 98px;
-  background: url('../images/StartStatus.png') no-repeat center center;
+  padding: 12px;
+  font-size: 12px;
+  background: url('../images/StartStatus.png') no-repeat center right;
+}
+
+.start-icon {
+  background: no-repeat center center;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+}
+
+.start-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.steam {
+  background-image: url('../images/steam.png');
 }
